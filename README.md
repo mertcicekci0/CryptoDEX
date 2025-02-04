@@ -9,7 +9,7 @@ ERC20 token support
 Comprehensive event system
 Technical Details
 Contract Structure
-
+```
 contract Cryptodex {
     struct Reserve {
         uint112 reserve0;    // First token reserve
@@ -35,6 +35,7 @@ contract Cryptodex {
         uint256 amountB
     );
 }
+```
 Core Functions
 
 1
