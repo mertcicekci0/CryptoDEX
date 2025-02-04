@@ -3,13 +3,15 @@
 This repository contains a smart contract implementation of a decentralized exchange (DEX) similar to Uniswap V2. The platform operates using a constant product formula for price determination and manages liquidity pools for token trading.
 
 ***Features***
-*Token swapping and liquidity management
-Constant product formula pricing
-OpenZeppelin's ReentrancyGuard security
-ERC20 token support
-Comprehensive event system
-Technical Details
-Contract Structure
+
+-Token swapping and liquidity management
+-Constant product formula pricing
+-OpenZeppelin's ReentrancyGuard security
+-ERC20 token support
+-Comprehensive event system
+-Technical Details
+-Contract Structure
+
 ```
 contract Cryptodex {
     struct Reserve {
